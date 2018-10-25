@@ -10,8 +10,24 @@ class LandingPage extends Component {
       <Content className="landing-grid">
         <div className="page-content">
           <div style={{ width: "100%", margin: "auto" }}>
+          <Particles 
+              style={{position: 'absolute'}}
+              params={{
+            		particles: {
+            			line_linked: {
+            				shadow: {
+            					enable: true,
+            					color: "#3CA9D1",
+            					blur: 5
+                    },
+                    distance:200
+            			}
+            		}
+            	}}
+            />
             <Grid className="landing-grid">
               <Cell col={12}>
+              
                 <LandingAvatar />
               </Cell>
             </Grid>

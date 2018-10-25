@@ -2,13 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import Main from "./pages/main";
 import { Link } from "react-router-dom";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+import { Layout, Header, Navigation, Drawer } from "react-mdl";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="demo-big-content">
@@ -25,7 +21,7 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="My Profile">
+          <Drawer title={<Link to="/">My Profile</Link>}>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>

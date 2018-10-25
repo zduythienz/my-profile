@@ -39,17 +39,17 @@ class LandingAvatar extends Component {
             <footer>
               <ul class="icons">
                 <li>
-                  <a href="#" class="fa-twitter">
+                  <a href="https://www.facebook.com/zduythienz" target="blank" class="fa-twitter">
                     Twitter
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="fa-instagram">
+                  <a href="https://www.instagram.com/zd.tz/" class="fa-instagram">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="fa-facebook">
+                  <a href="https://www.facebook.com/zduythienz" class="fa-facebook">
                     Facebook
                   </a>
                 </li>

@@ -1,4 +1,4 @@
-@import url(../../../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css);
+@import url(../../../node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
 /*
@@ -10,7 +10,7 @@
 /* Icon (alt) */
 
 html,
-#body-landing,
+#main-avatar,
 div,
 span,
 applet,
@@ -112,7 +112,7 @@ section {
   display: block;
 }
 
-#body-landing {
+#main-avatar {
   line-height: 1;
 }
 
@@ -139,7 +139,7 @@ table {
   border-spacing: 0;
 }
 
-#body-landing {
+#main-avatar {
   -webkit-text-size-adjust: none;
 }
 
@@ -166,7 +166,7 @@ textarea {
 
 @media screen and (max-width: 480px) {
   html,
-  #body-landing {
+  #main-avatar {
     min-width: 320px;
   }
 }
@@ -181,9 +181,9 @@ html {
   box-sizing: inherit;
 }
 
-#body-landing.is-preload *,
-#body-landing.is-preload *:before,
-#body-landing.is-preload *:after {
+#main-avatar.is-preload *,
+#main-avatar.is-preload *:before,
+#main-avatar.is-preload *:after {
   -moz-animation: none !important;
   -webkit-animation: none !important;
   -ms-animation: none !important;
@@ -198,28 +198,28 @@ html {
   height: 100%;
 }
 
-#body-landing {
+#main-avatar {
   height: 100%;
   /* background-color: #ffffff;
-  background-image: url("../../images/overlay.png"),
+  background-image: url("../images/overlay.png"),
     -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("../../images/bg.jpg");
-  background-image: url("../../images/overlay.png"),
+    url("../images/bg.jpg");
+  background-image: url("../images/overlay.png"),
     -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("../../images/bg.jpg");
-  background-image: url("../../images/overlay.png"),
+    url("../images/bg.jpg");
+  background-image: url("../images/overlay.png"),
     -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("../../images/bg.jpg");
-  background-image: url("../../images/overlay.png"),
+    url("../images/bg.jpg");
+  background-image: url("../images/overlay.png"),
     linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),
-    url("../../images/bg.jpg");
+    url("../images/bg.jpg");
   background-repeat: repeat, no-repeat, no-repeat;
   background-size: 100px 100px, cover, cover;
   background-position: top left, center center, bottom center;
   background-attachment: fixed, fixed, fixed; */
 }
 
-#body-landing:after {
+#main-avatar:after {
   content: "";
   display: block;
   position: fixed;
@@ -229,31 +229,31 @@ html {
   height: inherit;
   opacity: 0;
   z-index: 1;
-  /* background-color: #ffffff;
-  background-image: url("../../images/overlay.png"),
+  background-color: #ffffff;
+  background-image: url("../images/overlay.png"),
     -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-  background-image: url("../../images/overlay.png"),
+  background-image: url("../images/overlay.png"),
     -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-  background-image: url("../../images/overlay.png"),
+  background-image: url("../images/overlay.png"),
     -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-  background-image: url("../../images/overlay.png"),
+  background-image: url("../images/overlay.png"),
     linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
   background-repeat: repeat, no-repeat;
   background-size: 100px 100px, cover;
-  background-position: top left, center center; */
+  background-position: top left, center center;
   -moz-transition: opacity 1.75s ease-out;
   -webkit-transition: opacity 1.75s ease-out;
   -ms-transition: opacity 1.75s ease-out;
   transition: opacity 1.75s ease-out;
 }
 
-#body-landing.is-preload:after {
+#main-avatar.is-preload:after {
   opacity: 1;
 }
 
 /* Type */
 
-#body-landing,
+#main-avatar,
 input,
 select,
 textarea {
@@ -267,7 +267,7 @@ textarea {
 }
 
 @media screen and (max-width: 1680px) {
-  #body-landing,
+  #main-avatar,
   input,
   select,
   textarea {
@@ -276,7 +276,7 @@ textarea {
 }
 
 @media screen and (max-width: 480px) {
-  #body-landing,
+  #main-avatar,
   input,
   select,
   textarea {
@@ -1053,7 +1053,7 @@ button:disabled,
   }
 }
 
-#body-landing.is-preload #main {
+#main-avatar.is-preload #main {
   -moz-transform: rotateX(15deg);
   -webkit-transform: rotateX(15deg);
   -ms-transform: rotateX(15deg);
@@ -1138,6 +1138,6 @@ button:disabled,
   }
 }
 
-#body-landing.is-ie #wrapper {
+#main-avatar.is-ie #wrapper {
   height: 100%;
 }

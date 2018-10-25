@@ -3,7 +3,6 @@ import "./App.css";
 import Main from "./pages/main";
 import { Link } from "react-router-dom";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import "./assets/css/common/common.css";
 
 class App extends Component {
   constructor(props) {
@@ -15,10 +14,9 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
-            className="background-animation-color"
+            className="header-color"
             title={<Link to="/">My Profile</Link>}
             scroll
-            style={{ position: "fixed" }}
           >
             <Navigation>
               <Link to="/resume">Resume</Link>
@@ -27,7 +25,7 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Header>
-          <Drawer title="My Profile" style={{ position: "fixed" }}>
+          <Drawer title="My Profile">
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/projects">Projects</Link>
@@ -35,11 +33,7 @@ class App extends Component {
               <Link to="/contact">Contact</Link>
             </Navigation>
           </Drawer>
-          <Content>
-            <div className="page-content">
-              <Main />
-            </div>
-          </Content>
+          <Main />
         </Layout>
       </div>
     );
